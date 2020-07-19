@@ -1,0 +1,31 @@
+    $thefont: 'Poppins', sans-serif;
+.container{
+    h3{
+        font-size: 40px;
+        font-family: $thefont;
+        font-weight: bold;
+        margin: 30px;
+        color: #FF0062;
+
+     }
+    .row{
+        align-items: center;
+        .col-sm{
+            p{
+                padding: 20px;
+                font-family: $thefont;
+                font-size: 20px;
+                color: rgb(61, 61, 61);
+            }
+            .caption-img{
+                margin: 60px;
+                width: 550px;
+            }
+        }
+
+        .img-col{
+            display: flex;
+        justify-content: center;
+        }
+    }
+}

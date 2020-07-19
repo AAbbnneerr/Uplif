@@ -1,0 +1,52 @@
+
+$fuente: 'Poppins', sans-serif;
+.banner{
+background:rgb(255, 0, 98);
+padding: 30px;
+color: white;
+font-family: $fuente;
+font-weight: normal;
+margin-top: 20px;
+
+.container{
+    .row{
+
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 70px;
+            font-weight: bolder;
+        }
+
+
+    }
+}
+
+}
+ 
+
+ .container{
+     margin-top: 7%;
+     width: 100%;
+     .row{
+         width: 100%;
+         .banner-card{
+                -webkit-box-shadow: 0px 3px 59px -12px rgba(179,179,179,0.5);
+                -moz-box-shadow: 0px 3px 59px -12px rgba(179,179,179,0.5);
+                box-shadow: 0px 3px 59px -12px rgba(179,179,179,0.5);
+                display: flex;
+                align-items: center;
+                box-shadow: 0px 3px 59px -12px rgba (163,163,163,1);
+                padding: 30px;
+                background-color: rgb(255, 255, 255);
+                span{
+                    font-family: $fuente;
+                    line-height: 20px;
+                }
+                img{
+                    width: 40px;
+                    margin: 10px;
+                }
+            }
+     }
+ }

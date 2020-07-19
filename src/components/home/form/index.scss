@@ -1,0 +1,67 @@
+.box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.formBox{
+    margin: 100px;
+    padding: 30px;
+    border: 1px solid rgba(212, 212, 212, 0.521);
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    width: 60%;
+
+    .form{
+    text-align: center;
+    width: 100%;
+    h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.input-group{
+    width: 60%;
+}
+.form-section{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .row{
+    width: 50%;
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;;
+        width: 70%;
+        border-radius: 30px;
+        background: linear-gradient(90deg, rgba(255,54,134,1) 0%, rgba(255,0,98,1) 100%);
+        border: none;
+        font-weight:bold ; 
+    span{
+        display: none;
+    }
+       &:hover{
+           span{
+               display: block;
+               transition-duration: 1s;
+               animation-duration: 1s ;
+           }
+    } 
+
+   
+    }
+
+    input{
+        border-radius: 30px;
+    }
+    
+
+}
+}
+
+}
