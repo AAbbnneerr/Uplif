@@ -7,7 +7,6 @@ import world from '../../../assets/world.png'
 
 const Caption = ()=>{
 
-    const officeMan = '../../../assets/world_connection_(2).png'
     return(
         <div className="section">
             <div className="container first">
