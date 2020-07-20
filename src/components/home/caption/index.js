@@ -19,7 +19,7 @@ const Caption = ()=>{
                         
                     </div>  
                     <div className="col-sm img-col">
-                    <img src={designer} width="600px"></img>
+                    <img className="caption-img" src={designer} width="600px"></img>
                     </div>
                 </div>
                 

@@ -4,10 +4,14 @@
         font-size: 40px;
         font-family: $thefont;
         font-weight: bold;
-        margin: 30px;
         color: #FF0062;
 
      }
+     @media only screen and (max-width: 640px) {
+        h3{
+            margin-left: 1%;
+        }
+    }
     .row{
         align-items: center;
         .col-sm{
@@ -20,6 +24,13 @@
             .caption-img{
                 margin: 60px;
                 width: 550px;
+               
+               
+            }
+            @media only screen and (max-width: 640px) {
+                .caption-img{
+                    display: none;
+                }
             }
         }
 

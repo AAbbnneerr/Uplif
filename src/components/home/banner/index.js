@@ -16,7 +16,7 @@ const Banner = () =>{
                 <div className="container">
                     <div className="row">
                         <div className="col-sm"><h1>Genera la escencia de tu marca</h1></div>
-                        <div className="col-sm"> <img src='../../../assets/site.png' width="600px"/> </div>
+                        <div className="col-sm img-col"> <img src='../../../assets/site.png' width="600px"/> </div>
                     </div>
                 </div>
                

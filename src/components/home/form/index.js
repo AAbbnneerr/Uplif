@@ -19,7 +19,7 @@ const Form = () =>{
                     </div>
                     </div>
                     <div className="col-sm-4">
-                    <button type="button" className="btn btn-primary">Envia <span class="material-icons">send</span></button>
+                    <button type="button" className="btn btn-primary">Enviar<span class="material-icons">send</span></button>
                     </div>
                 </div>
            </div>
